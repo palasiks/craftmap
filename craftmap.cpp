@@ -270,7 +270,7 @@ int main(int argc,char **argv)
 				min_F = atof(argv[i]+2);
 
 			if (argv[i][1] == 'l')
-				double min_len = atof(argv[i]+2);
+				min_len = atof(argv[i]+2);
 			}
 		else
 			insert_color_comments(argv[i]);
